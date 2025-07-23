@@ -13,6 +13,7 @@ struct ContentView: View {
             Image("Color")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fill)
+                .ignoresSafeArea()
             VStack {
                 ZStack{
                     Text("ABOUT ME!")
@@ -40,15 +41,14 @@ struct ContentView: View {
                     .padding(.vertical, 10.0)
                     .cornerRadius(10)
                     .frame(width: 450.0, height: 450.0)
-                Text("Age: 18")
-                    .multilineTextAlignment(.center)
                 Text("Education: University of Maryland, College Park")
                     .multilineTextAlignment(.center)
                 Text("Favorite Color: Navy Blue")
                     .multilineTextAlignment(.center)
                 Text("Location: Frederick, MD")
                     .multilineTextAlignment(.center)
-                    
+                Text("Age: 18 years old")
+                    .multilineTextAlignment(.center)
                 HStack{
                     Text("Art")
                         .font(.headline)

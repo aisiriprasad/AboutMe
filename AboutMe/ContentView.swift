@@ -41,7 +41,7 @@ struct ContentView: View {
                     .padding(.vertical, 10.0)
                     .cornerRadius(10)
                     .frame(width: 450.0, height: 450.0)
-                Text("Education: University of Maryland, College Park")
+                Text("Incoming First Year @ UMD")
                     .multilineTextAlignment(.center)
                 Text("Favorite Color: Navy Blue")
                     .multilineTextAlignment(.center)

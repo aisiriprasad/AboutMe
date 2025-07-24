@@ -1,0 +1,1 @@
+My first-ever app was an 'About Me' project created using SwiftUI on Xcode during the Kode With Klossy Mobile App Development Camp. The app showcases my hobbies and fun facts, all displayed on the ContentView page.
